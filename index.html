@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="baucua.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-
-<body>
+<body style="background-image: url('images/TrungBaucua.jpg'); background-repeat: no-repeat;">
     <div class="center">
         <div class="cover">
             <div class="overlay">
@@ -32,7 +32,13 @@
             <button class="open">Mở</button>
         </div>
     </div>
-
+    <button class="btn btn-outline-success" onclick="onClickButton(this)">Start</button>
+    <div class="dice" style="position: absolute; top:25%; left: 0; opacity: 0.5;">
+        <div class='deer'></div>
+        <div class='deer'></div>
+        <div class='deer'></div>
+    </div>
+    <!-- <img src="./images/TrungBaucua.jpg" class="nai"/> -->
     <script src="baucua.js"></script>
 </body>
 
