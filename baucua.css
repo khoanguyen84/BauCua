@@ -1,40 +1,47 @@
 /* nai */
 
-.dice{
+.dice {
     display: flex;
     flex-direction: row;
 }
-.deer{ 
+
+.deer {
     width: 426px;
     height: 360px;
     background: url(./images/TrungBaucua.jpg) 0 0;
 }
+
+
 /* bầu */
-.calabash{
+
+.calabash {
     width: 426px;
     height: 360px;
     background: url(./images/TrungBaucua.jpg) 850px 0;
 }
 
-.chicken{
+.chicken {
     width: 426px;
     height: 360px;
     background: url(./images/TrungBaucua.jpg) 426px 0;
 }
 
-.fish{
+.fish {
     width: 426px;
     height: 360px;
     background: url(./images/TrungBaucua.jpg) 0 360px;
 }
 
-.crab{
+.crab {
     width: 426px;
     height: 360px;
     background: url(./images/TrungBaucua.jpg) 850px 360px;
 }
+
+
 /* tôm */
-.shrimp{
+
+.shrimp {
     width: 426px;
     height: 360px;
     background: url(./images/TrungBaucua.jpg) 426px 360px;
